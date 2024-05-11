@@ -9,7 +9,8 @@ az group create --name learn-azure-cli --location eastus
 ### Set the Resource Group as default (Optional)
 
 ```
-az config set defaults.group=learn-azure-cli
+az configure --defaults group=learn-azure-cli
+
 ```
 
 ### Create VM with Vnet
