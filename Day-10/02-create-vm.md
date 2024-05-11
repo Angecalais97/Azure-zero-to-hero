@@ -39,7 +39,7 @@ az vm create \
 ## Step 1: Get the Public IP Address
 az vm show --resource-group learn-azure-cli --name azure-cli --show-details --query [publicIps] --output tsv
 ## Step 2: Connect Using SSH
-ssh azureuser@<public-ip-address>
+ssh azureuser@13.92.81.20
 ## Step 3: Troubleshooting
 chmod 600 ~/.ssh/id_rsa
 
